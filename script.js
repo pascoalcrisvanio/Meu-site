@@ -13,7 +13,7 @@ document
 }
 
 const eventDate =
-new Date("September 26, 2026 17:00:00").getTime();
+new Date("September 26, 2026 18:00:00")
 
 setInterval(()=>{
 
