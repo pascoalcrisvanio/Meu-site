@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Carina - 19º Aniversário</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+<nav class="menu">
+    <button onclick="showTab('inicio')">Início</button>
+    <button onclick="showTab('evento')">Evento</button>
+    <button onclick="showTab('dress')">Dress Code</button>
+    <button onclick="showTab('presentes')">Presentes</button>
+    <button onclick="showTab('local')">Localização</button>
+</nav>
+
+<div class="tab active" id="inicio">
+
+    <div class="hero">
+
+        <h1>CARINA</h1>
+
+        <h2>19º ANIVERSÁRIO</h2>
+
+        <p class="frase">
+            A sua presença tornará este momento ainda mais especial.
+        </p>
+
+    </div>
+
+</div>
+
+<div class="tab" id="evento">
+
+    <h2 class="titulo">Informações do Evento</h2>
+
+    <div class="card">
+
+        <p>📅 26 de Setembro de 2026</p>
+
+        <p>🕔 17h00</p>
+
+        <p>📍 Kapolo 2</p>
+
+    </div>
+
+    <div id="countdown">
+
+        <div>
+            <span id="days">0</span>
+            <small>Dias</small>
+        </div>
+
+        <div>
+            <span id="hours">0</span>
+            <small>Horas</small>
+        </div>
+
+        <div>
+            <span id="minutes">0</span>
+            <small>Minutos</small>
+        </div>
+
+        <div>
+            <span id="seconds">0</span>
+            <small>Segundos</small>
+        </div>
+
+    </div>
+
+</div>
+
+<div class="tab" id="dress">
+
+    <h2 class="titulo">Dress Code</h2>
+
+    <div class="card">
+
+        <h3>⚫ PRETO OBRIGATÓRIO ⚫</h3>
+
+        <p>
+            Venha vestido(a) de preto para tornar esta celebração ainda mais elegante.
+        </p>
+
+    </div>
+
+</div>
+
+<div class="tab" id="presentes">
+
+    <h2 class="titulo">Sugestões de Presentes</h2>
+
+    <div class="card">
+
+        <p>👜 Bolsa</p>
+        <p>👗 Roupa</p>
+        <p>👠 Calçado (37)</p>
+        <p>💍 Acessórios</p>
+        <p>✨ Prata ou Dourado</p>
+
+    </div>
+
+</div>
+
+<div class="tab" id="local">
+
+    <h2 class="titulo">Localização</h2>
+
+    <div class="card">
+
+        <p>Kapolo 2</p>
+
+        <a
+        href="https://maps.app.goo.gl/PWJRwCJnPChAbMd37"
+        target="_blank"
+        class="btn">
+
+        Abrir Google Maps
+
+        </a>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
